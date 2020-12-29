@@ -16,7 +16,11 @@ public class Employee {
         role = newRole;
     }
 
-    public String responsibilities() {
-        return role.describeResponsibilities();
+    public String grade() {
+        return this.name + " is a " + role.description();
+    }
+
+    public void doWork() {
+        System.out.println(name + " Will " + role.responsibilities());
     }
 }

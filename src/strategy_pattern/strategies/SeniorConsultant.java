@@ -2,7 +2,12 @@ package strategy_pattern.strategies;
 
 public class SeniorConsultant implements Role {
     @Override
-    public String describeResponsibilities() {
-        return "Senior consultant is responsible for...";
+    public String description() {
+        return SeniorConsultant.class.getSimpleName();
+    }
+
+    @Override
+    public String responsibilities() {
+        return "Review Code";
     }
 }

@@ -2,7 +2,12 @@ package strategy_pattern.strategies;
 
 public class Consultant implements Role {
     @Override
-    public String describeResponsibilities() {
-        return "Consultant is responsible for...";
+    public String description() {
+        return Consultant.class.getSimpleName();
+    }
+
+    @Override
+    public String responsibilities() {
+        return "Write Code";
     }
 }
