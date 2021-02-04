@@ -5,4 +5,4 @@ Design Patterns
 [![HitCount](http://hits.dwyl.io/ajitsing/design_patterns.svg)](http://hits.dwyl.io/ajitsing/design_patterns)
 
 ### Blog
-http://www.singhajit.com/category/design-patterns/
+https://singhajit.com/tags/#design%20pattern
